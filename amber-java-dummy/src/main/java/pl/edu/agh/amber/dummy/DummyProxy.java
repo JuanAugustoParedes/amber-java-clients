@@ -14,6 +14,11 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
+/**
+ * Proxy used to connect to Dummy driver.
+ *
+ * @author Paweł Suder <pawel@suder.info>
+ */
 public class DummyProxy extends AmberProxy {
 
     /* Magic-constant */
